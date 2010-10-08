@@ -46,6 +46,9 @@ projects[i18n][version] = "1.7"
 projects[imageapi][subdir] = "contrib"
 projects[imageapi][version] = "1.8"
 
+projects[imagecache][subdir] = "contrib"
+projects[imagecache][version] = "2.0-beta10"
+
 projects[lang_dropdown][subdir] = "contrib"
 projects[lang_dropdown][version] = "1.2"
 
@@ -63,6 +66,12 @@ projects[smtp][version] = "1.0-beta5"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
+
+projects[token][subdir] = "contrib"
+projects[token][version] = "1.15"
+
+projects[transliteration][subdir] = "contrib"
+projects[transliteration][version] = "3.0"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "2.11"
