@@ -4,7 +4,7 @@ core = "6.x"
 
 projects[epistemetec_config][type] = "module"
 projects[epistemetec_config][download][type] = "git"
-projects[epistemetec_config][download][url] = "git@github.com:caprowsky/epistemetec_config.git"
+projects[epistemetec_config][download][url] = "https://github.com/caprowsky/epistemetec_config.git"
 projects[epistemetec_config][directory_name] = "epistemetec_config"
 projects[epistemetec_config][destination] = "modules/features/epistemetec"
 
@@ -129,7 +129,6 @@ projects[web_widgets][version] = "1.3"
 projects[mobileplugin][subdir] = "contrib"
 projects[mobileplugin][version] = "2.0"
 
-projects[mobile_garland][subdir] = "contrib"
 projects[mobile_garland][version] = "1.1"
 
 ; Contrib themes 
@@ -141,7 +140,7 @@ projects[skinr][version] = "1.5"
 
 projects[epistemetec_theme][type] = "theme"
 projects[epistemetec_theme][download][type] = "git"
-projects[epistemetec_theme][download][url] = "git@github.com:caprowsky/epistemetec_theme.git"
+projects[epistemetec_theme][download][url] = "https://github.com/caprowsky/epistemetec_theme.git"
 projects[epistemetec_theme][directory_name] = "epistemetec_theme"
 projects[epistemetec_theme][destination] = "themes/fusion/epistemetec_theme"
 
