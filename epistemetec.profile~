@@ -22,6 +22,7 @@ function epistemetec_profile_modules() {
     'dblog',
     'filter',
     'help',
+    'locale',
     'menu',
     'node',
     'openid',
@@ -29,6 +30,7 @@ function epistemetec_profile_modules() {
     'php',
     'search',
     'system', 
+    'syslog',
     'taxonomy',
     'upload',
     'user',
@@ -41,9 +43,13 @@ function epistemetec_profile_modules() {
     // More help please
     'advanced_help',
     // cck management
-    
+    'content', 'nodereference', 'text', 'optionwidgets','fieldgroup', 'number', 'content_copy',
+    // files field
+    'filefield','filefield_meta','filefield_sources',
 
     // Multilingual management
+    
+
 
     // Some modules for panels management like CTools
     'ctools','page_manager','bulk_export','views_content',
@@ -55,13 +61,15 @@ function epistemetec_profile_modules() {
     // Features, diff and strongarm
     'features','diff','strongarm',
     // Some modules contrib for image management
-    'imageapi', 'imageapi_gd', 'imagecache',
+    'imageapi', 'imageapi_gd', 'imagecache','imagecache_ui', 'imagefield',
     // SMTP support
     'smtp',
+    // logintoboggan
+    'logintoboggan',
     // Skinr
     'skinr',
     // Custom features
-    'epistemetec_config',
+    //'epistemetec_config',
 
    
   );

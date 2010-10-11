@@ -9,6 +9,13 @@ projects[epistemetec_config][download][url] = "http://github.com/caprowsky/epist
 projects[epistemetec_config][directory_name] = "epistemetec_config"
 projects[epistemetec_config][destination] = "modules/features/epistemetec"
 
+; Custom epistemetec modules
+
+projects[epistemetec][type] = "module"
+projects[epistemetec][download][type] = "git"
+projects[epistemetec][download][url] = "http://github.com/ratzeni/epistemetec.git"
+projects[epistemetec][subdir] = "custom"
+
 ; Contrib modules
 
 projects[admin_menu][subdir] = "contrib"
