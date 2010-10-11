@@ -1,3 +1,4 @@
+api = 2
 core = "6.x"
 
 ; Epistemetec features
@@ -78,6 +79,15 @@ projects[views][version] = "2.11"
 
 projects[web_widgets][subdir] = "contrib"
 projects[web_widgets][version] = "1.3"
+
+; Mobile contrib modules
+
+projects[wurfl][subdir] = "contrib"
+projects[wurfl][version] = "1.0"
+
+projects[mobile_tools][subdir] = "contrib"
+projects[mobile_tools][version] = "1.12"
+
 
 ; How to manage fedora item?
 
