@@ -25,6 +25,8 @@ function epistemetec_profile_modules() {
     'menu',
     'node',
     'openid',
+    'path',
+    'php',
     'search',
     'system', 
     'taxonomy',
@@ -32,24 +34,34 @@ function epistemetec_profile_modules() {
     'user',
     // Admin menu
     'admin_menu',
-    // Views
-    'views', 'views_ui', 
-    // CTools
-    'ctools',
-    // Date
-    'date_api', 'date_timezone',
-    // Features
-    'features',
-    // Image
-    'imageapi', 'imageapi_gd', 'imagecache',
     // Token
     'token',
+    // Views
+    'views', 'views_ui', 
+    // More help please
+    'advanced_help',
+    // cck management
+    
+
+    // Multilingual management
+
+    // Some modules for panels management like CTools
+    'ctools','page_manager','bulk_export','views_content',
+
+    // Panels modules
+    'panels','panels_mini','panels_node',
+    // Date
+    'date_api', 'date_timezone',
+    // Features, diff and strongarm
+    'features','diff','strongarm',
+    // Some modules contrib for image management
+    'imageapi', 'imageapi_gd', 'imagecache',
+    // SMTP support
+    'smtp',
     // Skinr
     'skinr',
-    // Strongarm
-    'strongarm',
     // Custom features
-    'epistemetec_config',
+    //'epistemetec_config',
 
    
   );
