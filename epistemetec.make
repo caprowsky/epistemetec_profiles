@@ -65,6 +65,12 @@ projects[diff][version] = "2.1"
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "1.0-beta6"
 
+projects[filefield][subdir] = "contrib"
+projects[filefield][version] = "3.7"
+
+projects[filefield_sources][subdir] = "contrib"
+projects[filefield_sources][version] = "1.2"
+
 projects[i18n][subdir] = "contrib"
 projects[i18n][version] = "1.7"
 
@@ -73,6 +79,9 @@ projects[imageapi][version] = "1.8"
 
 projects[imagecache][subdir] = "contrib"
 projects[imagecache][version] = "2.0-beta10"
+
+projects[imagefield][subdir] = "contrib"
+projects[imagefield][version] = "3.7"
 
 projects[lang_dropdown][subdir] = "contrib"
 projects[lang_dropdown][version] = "1.2"
