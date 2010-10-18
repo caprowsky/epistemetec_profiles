@@ -12,13 +12,13 @@ projects[epistemetec_config][type] = "module"
 projects[epistemetec_config][download][type] = "git"
 projects[epistemetec_config][download][url] = "http://github.com/caprowsky/epistemetec_config.git"
 projects[epistemetec_config][directory_name] = "epistemetec_config"
-projects[epistemetec_config][destination] = "epistemetec_features"
+projects[epistemetec_config][destination] = "modules/epistemetec_features"
 
 projects[epistemetec_panels][type] = "module"
 projects[epistemetec_panels][download][type] = "git"
 projects[epistemetec_panels][download][url] = "http://github.com/caprowsky/epistemetec_panels.git"
 projects[epistemetec_panels][directory_name] = "epistemetec_panels"
-projects[epistemetec_panels][destination] = "epistemetec_features"
+projects[epistemetec_panels][destination] = "modules/epistemetec_features"
 
 ; Custom epistemetec modules
 
@@ -179,7 +179,9 @@ projects[mobile_garland][version] = "1.1"
 ; Contrib themes 
 
 projects[fusion][version] = "1.0"
+
 projects[skinr][version] = "1.5"
+projects[skinr][subdir] = "contrib"
 
 ; Custom themes 
 
