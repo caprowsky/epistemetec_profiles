@@ -11,21 +11,20 @@ projects[features][version] = "1.0"
 projects[epistemetec_config][type] = "module"
 projects[epistemetec_config][download][type] = "git"
 projects[epistemetec_config][download][url] = "http://github.com/caprowsky/epistemetec_config.git"
-projects[epistemetec_config][directory_name] = "epistemetec_config"
-projects[epistemetec_config][destination] = "modules/epistemetec_features"
+projects[epistemetec_config][subdir] = "epistemetec_features"
 
 projects[epistemetec_panels][type] = "module"
 projects[epistemetec_panels][download][type] = "git"
 projects[epistemetec_panels][download][url] = "http://github.com/caprowsky/epistemetec_panels.git"
-projects[epistemetec_panels][directory_name] = "epistemetec_panels"
-projects[epistemetec_panels][destination] = "modules/epistemetec_features"
+projects[epistemetec_panels][subdir] = "epistemetec_features"
+
 
 ; Custom epistemetec modules
 
 projects[fedora_repository][type] = "module"
 projects[fedora_repository][download][type] = "git"
 projects[fedora_repository][download][url] = "http://github.com/ratzeni/dev-islandora.git"
-projects[fedora_repository][destination] = "custom"
+projects[fedora_repository][subdir] = "custom"
 projects[fedora_repository][directory_name] = "fedora_repository"
 
 projects[epistemetec][type] = "module"
