@@ -183,11 +183,9 @@ projects[skinr][subdir] = "contrib"
 
 ; Custom themes 
 
-projects[epistemetec_theme][type] = "theme"
-projects[epistemetec_theme][download][type] = "git"
-projects[epistemetec_theme][download][url] = "http://github.com/caprowsky/epistemetec_theme.git"
-projects[epistemetec_theme][directory_name] = "epistemetec_theme"
-projects[epistemetec_theme][destination] = "themes/fusion/epistemetec_theme"
+libraries[epistemetec_theme][download][type] = "git"
+libraries[epistemetec_theme][download][url] = "http://github.com/caprowsky/epistemetec_theme.git"
+libraries[epistemetec_theme][destination] = "themes/fusion/epistemetec_theme"
 
 ; includes[epistemetec] = "epistemetec.make"
 ; includes[remote] = "http://github.com/caprowsky/epistemetec/epistemetec.make"
