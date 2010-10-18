@@ -22,10 +22,18 @@ projects[epistemetec_panels][destination] = "modules/features/epistemetec"
 
 ; Custom epistemetec modules
 
+projects[fedora_repository][type] = "module"
+projects[fedora_repository][download][type] = "git"
+projects[fedora_repository][download][url] = "http://github.com/ratzeni/dev-islandora.git"
+projects[fedora_repository][destination] = "custom"
+projects[fedora_repository][directory_name] = "fedora_repository"
+
 projects[epistemetec][type] = "module"
 projects[epistemetec][download][type] = "git"
 projects[epistemetec][download][url] = "http://github.com/ratzeni/epistemetec.git"
-projects[epistemetec][subdir] = "custom"
+projects[epistemetec][directory_name] = "epistemetec"
+projects[epistemetec][destination] = "custom/fedora_repository"
+
 
 ; Contrib modules
 

@@ -12,26 +12,28 @@ projects[epistemetec_config][type] = "module"
 projects[epistemetec_config][download][type] = "git"
 projects[epistemetec_config][download][url] = "http://github.com/caprowsky/epistemetec_config.git"
 projects[epistemetec_config][directory_name] = "epistemetec_config"
-projects[epistemetec_config][destination] = "modules/features/epistemetec"
+projects[epistemetec_config][destination] = "epistemetec_features"
 
 projects[epistemetec_panels][type] = "module"
 projects[epistemetec_panels][download][type] = "git"
 projects[epistemetec_panels][download][url] = "http://github.com/caprowsky/epistemetec_panels.git"
 projects[epistemetec_panels][directory_name] = "epistemetec_panels"
-projects[epistemetec_panels][destination] = "modules/features/epistemetec"
+projects[epistemetec_panels][destination] = "epistemetec_features"
 
 ; Custom epistemetec modules
 
 projects[fedora_repository][type] = "module"
 projects[fedora_repository][download][type] = "git"
 projects[fedora_repository][download][url] = "http://github.com/ratzeni/dev-islandora.git"
+projects[fedora_repository][destination] = "custom"
 projects[fedora_repository][directory_name] = "fedora_repository"
 
 projects[epistemetec][type] = "module"
 projects[epistemetec][download][type] = "git"
 projects[epistemetec][download][url] = "http://github.com/ratzeni/epistemetec.git"
-projects[epistemetec][destination] = "modules/fedora_repository"
 projects[epistemetec][directory_name] = "epistemetec"
+projects[epistemetec][destination] = "custom/fedora_repository"
+
 
 ; Contrib modules
 
