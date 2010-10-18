@@ -185,7 +185,7 @@ projects[skinr][subdir] = "contrib"
 
 libraries[epistemetec_theme][download][type] = "git"
 libraries[epistemetec_theme][download][url] = "http://github.com/caprowsky/epistemetec_theme.git"
-libraries[epistemetec_theme][destination] = "themes/fusion/epistemetec_theme"
+libraries[epistemetec_theme][destination] = "themes/fusion"
 
 ; includes[epistemetec] = "epistemetec.make"
 ; includes[remote] = "http://github.com/caprowsky/epistemetec/epistemetec.make"
