@@ -1,6 +1,11 @@
 api = 2
 core = "6.x"
 
+; you can not do anything without features
+
+projects[features][subdir] = "contrib"
+projects[features][version] = "1.0"
+
 ; Epistemetec features
 
 projects[epistemetec_config][type] = "module"
@@ -8,6 +13,12 @@ projects[epistemetec_config][download][type] = "git"
 projects[epistemetec_config][download][url] = "http://github.com/caprowsky/epistemetec_config.git"
 projects[epistemetec_config][directory_name] = "epistemetec_config"
 projects[epistemetec_config][destination] = "modules/features/epistemetec"
+
+projects[epistemetec_panels][type] = "module"
+projects[epistemetec_panels][download][type] = "git"
+projects[epistemetec_panels][download][url] = "http://github.com/caprowsky/epistemetec_panels.git"
+projects[epistemetec_panels][directory_name] = "epistemetec_panels"
+projects[epistemetec_panels][destination] = "modules/features/epistemetec"
 
 ; Custom epistemetec modules
 
@@ -44,9 +55,6 @@ projects[date][version] = "2.6"
 
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.1"
-
-projects[features][subdir] = "contrib"
-projects[features][version] = "1.0"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "1.0-beta6"
