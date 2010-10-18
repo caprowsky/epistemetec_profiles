@@ -69,6 +69,12 @@ function epistemetec_profile_modules() {
     // Skinr
     'skinr',
     // Custom features
+
+
+    // Custom modules for fedora repository
+    'fedora_repository','fedora_attach','fedora_ilives','fedora_imageapi',
+    'epistemetec',
+    
     //'epistemetec_config',
 
    
