@@ -30,7 +30,7 @@ projects[fedora_repository][directory_name] = "fedora_repository"
 ; projects[epistemetec][type] = "module"
 libraries[epistemetec][download][type] = "git"
 libraries[epistemetec][download][url] = "http://github.com/ratzeni/epistemetec.git"
-libraries[epistemetec][destination] = "custom/fedora_repository"
+libraries[epistemetec][destination] = "modules/custom/fedora_repository"
 
 
 ; Contrib modules
