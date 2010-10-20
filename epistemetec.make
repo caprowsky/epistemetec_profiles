@@ -13,6 +13,16 @@ projects[epistemetec_config][download][type] = "git"
 projects[epistemetec_config][download][url] = "http://github.com/caprowsky/epistemetec_config.git"
 projects[epistemetec_config][subdir] = "epistemetec_features"
 
+projects[epistemetec_fedora_collectiondl][type] = "module"
+projects[epistemetec_fedora_collectiondl][download][type] = "git"
+projects[epistemetec_fedora_collectiondl][download][url] = "http://github.com/caprowsky/epistemetec_fedora_collectiondl.git"
+projects[epistemetec_fedora_collectiondl][subdir] = "epistemetec_features"
+
+projects[epistemetec_fedora_object][type] = "module"
+projects[epistemetec_fedora_object][download][type] = "git"
+projects[epistemetec_fedora_object][download][url] = "http://github.com/caprowsky/epistemetec_fedora_object.git"
+projects[epistemetec_fedora_object][subdir] = "epistemetec_features"
+
 projects[epistemetec_panels][type] = "module"
 projects[epistemetec_panels][download][type] = "git"
 projects[epistemetec_panels][download][url] = "http://github.com/caprowsky/epistemetec_panels.git"

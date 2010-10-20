@@ -70,31 +70,20 @@ function epistemetec_profile_modules() {
     'logintoboggan',
     // Skinr
     'skinr',
-    // Custom features
+    
 
 
     // Custom modules for fedora repository
     'fedora_repository','fedora_attach','fedora_ilives','fedora_imageapi',
     'epistemetec',
     
-    //'epistemetec_config',
-
+    // Enable custom features,
+    'epistemetec_config', 'epistemetec_panels', 'epistemetec_fedora_object', 'epistemetec_fedora_collectiondl'
    
   );
 
   return $modules;
 }
 
-/**
-* Implementation of hook_profile_final().
-*
-* epistemetec platform installation.
-*/
-function epistemetec_profile_final() {
 
-// Enable default theme
-  drupal_system_enable('theme', 'minnelli');
-  variable_set('theme_default', 'minnelli');
-
-}
 ?>
