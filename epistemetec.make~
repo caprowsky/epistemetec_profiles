@@ -11,28 +11,26 @@ projects[features][version] = "1.0"
 projects[epistemetec_config][type] = "module"
 projects[epistemetec_config][download][type] = "git"
 projects[epistemetec_config][download][url] = "http://github.com/caprowsky/epistemetec_config.git"
-projects[epistemetec_config][directory_name] = "epistemetec_config"
-projects[epistemetec_config][destination] = "modules/features/epistemetec"
+projects[epistemetec_config][subdir] = "epistemetec_features"
 
 projects[epistemetec_panels][type] = "module"
 projects[epistemetec_panels][download][type] = "git"
 projects[epistemetec_panels][download][url] = "http://github.com/caprowsky/epistemetec_panels.git"
-projects[epistemetec_panels][directory_name] = "epistemetec_panels"
-projects[epistemetec_panels][destination] = "modules/features/epistemetec"
+projects[epistemetec_panels][subdir] = "epistemetec_features"
+
 
 ; Custom epistemetec modules
 
 projects[fedora_repository][type] = "module"
 projects[fedora_repository][download][type] = "git"
 projects[fedora_repository][download][url] = "http://github.com/ratzeni/dev-islandora.git"
-projects[fedora_repository][destination] = "custom"
+projects[fedora_repository][subdir] = "custom"
 projects[fedora_repository][directory_name] = "fedora_repository"
 
-projects[epistemetec][type] = "module"
-projects[epistemetec][download][type] = "git"
-projects[epistemetec][download][url] = "http://github.com/ratzeni/epistemetec.git"
-projects[epistemetec][directory_name] = "epistemetec"
-projects[epistemetec][destination] = "custom/fedora_repository"
+; projects[epistemetec][type] = "module"
+libraries[epistemetec][download][type] = "git"
+libraries[epistemetec][download][url] = "http://github.com/ratzeni/epistemetec.git"
+libraries[epistemetec][destination] = "modules/custom/fedora_repository"
 
 
 ; Contrib modules
@@ -52,6 +50,9 @@ projects[beautytips_advanced][version] = "1.0"
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.8"
 
+projects[context][subdir] = "contrib"
+projects[context][version] = "3.0"
+
 projects[custom_search][subdir] = "contrib"
 projects[custom_search][version] = "1.4"
 
@@ -67,6 +68,12 @@ projects[diff][version] = "2.1"
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "1.0-beta6"
 
+projects[filefield][subdir] = "contrib"
+projects[filefield][version] = "3.7"
+
+projects[filefield_sources][subdir] = "contrib"
+projects[filefield_sources][version] = "1.2"
+
 projects[i18n][subdir] = "contrib"
 projects[i18n][version] = "1.7"
 
@@ -75,6 +82,9 @@ projects[imageapi][version] = "1.8"
 
 projects[imagecache][subdir] = "contrib"
 projects[imagecache][version] = "2.0-beta10"
+
+projects[imagefield][subdir] = "contrib"
+projects[imagefield][version] = "3.7"
 
 projects[lang_dropdown][subdir] = "contrib"
 projects[lang_dropdown][version] = "1.2"
@@ -179,20 +189,24 @@ projects[mobile_garland][version] = "1.1"
 ; Contrib themes 
 
 projects[fusion][version] = "1.0"
+
 projects[skinr][version] = "1.5"
+projects[skinr][subdir] = "contrib"
 
 ; Custom themes 
 
-projects[epistemetec_theme][type] = "theme"
-projects[epistemetec_theme][download][type] = "git"
-projects[epistemetec_theme][download][url] = "http://github.com/caprowsky/epistemetec_theme.git"
-projects[epistemetec_theme][directory_name] = "epistemetec_theme"
-projects[epistemetec_theme][destination] = "themes/fusion/epistemetec_theme"
+libraries[epistemetec_theme][download][type] = "git"
+libraries[epistemetec_theme][download][url] = "http://github.com/caprowsky/epistemetec_theme.git"
+libraries[epistemetec_theme][destination] = "themes/fusion"
 
 ; includes[epistemetec] = "epistemetec.make"
 ; includes[remote] = "http://github.com/caprowsky/epistemetec/epistemetec.make"
 
 ; Libraries
+
+
+projects[jquery_ui][version] = "1.4"
+projects[jquery_ui][subdir] = "contrib"
 
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"

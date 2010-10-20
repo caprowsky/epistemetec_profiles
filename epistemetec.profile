@@ -46,6 +46,8 @@ function epistemetec_profile_modules() {
     'content', 'nodereference', 'text', 'optionwidgets','fieldgroup', 'number', 'content_copy',
     // files field
     'filefield','filefield_meta','filefield_sources',
+    // manage context
+    'context','context_ui',
 
     // Multilingual management
     

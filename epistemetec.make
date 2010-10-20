@@ -50,6 +50,9 @@ projects[beautytips_advanced][version] = "1.0"
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.8"
 
+projects[context][subdir] = "contrib"
+projects[context][version] = "3.0"
+
 projects[custom_search][subdir] = "contrib"
 projects[custom_search][version] = "1.4"
 
@@ -200,6 +203,9 @@ libraries[epistemetec_theme][destination] = "themes/fusion"
 ; includes[remote] = "http://github.com/caprowsky/epistemetec/epistemetec.make"
 
 ; Libraries
+
+projects[jquery_ui][version] = "1.4"
+projects[jquery_ui][subdir] = "contrib"
 
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
