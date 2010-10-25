@@ -78,7 +78,7 @@ function epistemetec_profile_modules() {
     //'epistemetec',
     
     // Enable custom features,
-    'epistemetec_config', 
+    //'epistemetec_config', 
     // 'epistemetec_panels', 'epistemetec_fedora_object', 'epistemetec_fedora_collectiondl'
    
   );
