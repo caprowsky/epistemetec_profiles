@@ -76,7 +76,7 @@ projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.1"
 
 projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "1.0-beta6"
+projects[feeds][version] = "1.0-beta9"
 
 projects[filefield][subdir] = "contrib"
 projects[filefield][version] = "3.7"
