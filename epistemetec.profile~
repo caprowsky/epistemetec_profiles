@@ -74,12 +74,11 @@ function epistemetec_profile_modules() {
 
 
     // Custom modules for fedora repository
-    //'fedora_repository','fedora_attach','fedora_ilives','fedora_imageapi',
-    //'epistemetec',
+    'fedora_repository','fedora_attach','fedora_ilives','fedora_imageapi',
+    'epistemetec',
     
     // Enable custom features,
-    'epistemetec_config', 
-    // 'epistemetec_panels', 'epistemetec_fedora_object', 'epistemetec_fedora_collectiondl'
+    'epistemetec_config', 'epistemetec_panels', 'epistemetec_fedora_object', 'epistemetec_fedora_collectiondl'
    
   );
 
