@@ -57,6 +57,9 @@ projects[beautytips][version] = "2.0"
 projects[beautytips_advanced][subdir] = "contrib"
 projects[beautytips_advanced][version] = "1.0"
 
+projects[backup_migrate][subdir] = "contrib"
+projects[backup_migrate][version] = "2.4"
+
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.8"
 
