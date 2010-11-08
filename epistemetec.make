@@ -105,6 +105,9 @@ projects[lang_dropdown][version] = "1.2"
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
 
+projects[languageicons][subdir] = "contrib"
+projects[languageicons][version] = "2.0"
+
 projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.7"
 
