@@ -47,11 +47,10 @@ function epistemetec_profile_modules() {
     // files field
     'filefield','filefield_meta','filefield_sources',
     // manage context
-    'context','context_ui',
+    //'context','context_ui',
 
     // Multilingual management
-    
-
+    'i18n', 'i18nblocks', 'i18ncck', 'i18ncontent', 'i18nmenu', 'i18nstrings', 'i18nsync', 'i18ntaxonomy', 'languageicons',
 
     // Some modules for panels management like CTools
     'ctools','page_manager','bulk_export','views_content',
