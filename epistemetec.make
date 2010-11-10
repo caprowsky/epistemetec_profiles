@@ -54,6 +54,9 @@ projects[advanced_help][version] = "1.2"
 projects[beautytips][subdir] = "contrib"
 projects[beautytips][version] = "2.0"
 
+projects[boxes][subdir] = "contrib"
+projects[boxes][version] = "1.0"
+
 projects[beautytips_advanced][subdir] = "contrib"
 projects[beautytips_advanced][version] = "1.0"
 
