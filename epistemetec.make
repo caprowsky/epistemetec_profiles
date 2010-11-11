@@ -73,7 +73,7 @@ projects[custom_search][subdir] = "contrib"
 projects[custom_search][version] = "1.4"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.7"
+projects[ctools][version] = "1.8"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.6"
@@ -94,7 +94,7 @@ projects[i18n][subdir] = "contrib"
 projects[i18n][version] = "1.7"
 
 projects[imageapi][subdir] = "contrib"
-projects[imageapi][version] = "1.8"
+projects[imageapi][version] = "1.9"
 
 projects[imagecache][subdir] = "contrib"
 projects[imagecache][version] = "2.0-beta10"
@@ -115,7 +115,7 @@ projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.7"
 
 projects[panels][subdir] = "contrib"
-projects[panels][version] = "3.7"
+projects[panels][version] = "3.8"
 
 projects[smtp][subdir] = "contrib"
 projects[smtp][version] = "1.0-beta5"
@@ -209,7 +209,7 @@ projects[mobile_garland][version] = "1.1"
 
 projects[fusion][version] = "1.0"
 
-projects[skinr][version] = "1.5"
+projects[skinr][version] = "1.6"
 projects[skinr][subdir] = "contrib"
 
 ; Custom themes 
