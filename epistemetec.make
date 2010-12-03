@@ -63,6 +63,9 @@ projects[beautytips_advanced][version] = "1.0"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.4"
 
+projects[custom_breadcrumbs][subdir] = "contrib"
+projects[custom_breadcrumbs][version] = "2.0-beta3"
+
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.8"
 
@@ -71,6 +74,9 @@ projects[context][version] = "3.0"
 
 projects[custom_search][subdir] = "contrib"
 projects[custom_search][version] = "1.4"
+
+projects[custom_breadcrumbs][subdir] = "contrib"
+projects[custom_breadcrumbs][version] = "1.5"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.8"
