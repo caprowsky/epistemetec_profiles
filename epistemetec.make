@@ -96,6 +96,12 @@ projects[filefield][version] = "3.7"
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.2"
 
+projects[flag][subdir] = "contrib"
+projects[flag][version] = "2.0-beta4"
+
+projects[translation_helpers][subdir] = "contrib"
+projects[translation_helpers][version] = "1.0"
+
 projects[i18n][subdir] = "contrib"
 projects[i18n][version] = "1.7"
 
