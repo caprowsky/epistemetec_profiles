@@ -239,5 +239,5 @@ libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
 libraries[PHPMailer][download][type] = "get"
 libraries[PHPMailer][download][url] = "http://downloads.sourceforge.net/project/phpmailer/phpmailer%20for%20php5_6/PHPMailer%20v5.1/PHPMailer_v5.1.zip"
-libraries[PHPMailer][directory_name] = "PHPMailer"
-libraries[PHPMailer][destination] = "modules/contrib/messaging/messaging_phpmailer"
+libraries[PHPMailer][directory_name] = "phpmailer"
+libraries[PHPMailer][destination] = "modules/contrib/smtp"
