@@ -237,3 +237,7 @@ libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jqu
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
+libraries[PHPMailer][download][type] = "get"
+libraries[PHPMailer][download][url] = "http://downloads.sourceforge.net/project/phpmailer/phpmailer%20for%20php5_6/PHPMailer%20v5.1/PHPMailer_v5.1.zip"
+libraries[PHPMailer][directory_name] = "PHPMailer"
+libraries[PHPMailer][destination] = "modules/contrib/messaging/messaging_phpmailer"
