@@ -147,6 +147,9 @@ projects[views][version] = "2.11"
 projects[web_widgets][subdir] = "contrib"
 projects[web_widgets][version] = "1.3"
 
+projects[wysiwyg][subdir] = "contrib"
+projects[wysiwyg][version] = "2.2"
+
 ; Mobile contrib modules
 
 projects[wurfl][subdir] = "contrib"
@@ -247,3 +250,11 @@ libraries[PHPMailer][download][type] = "get"
 libraries[PHPMailer][download][url] = "http://downloads.sourceforge.net/project/phpmailer/phpmailer%20for%20php5_6/PHPMailer%20v5.1/PHPMailer_v5.1.zip"
 libraries[PHPMailer][directory_name] = "phpmailer"
 libraries[PHPMailer][destination] = "modules/contrib/smtp"
+
+; libraries for wysiwyg editor
+
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.3.2/tinymce_3_3_2.zip"
+libraries[tinymce][directory_name] = "tinymce"
+
+
